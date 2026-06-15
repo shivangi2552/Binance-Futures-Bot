@@ -1,0 +1,25 @@
+# 1. Create a clean virtual environment
+python3 -m venv venv
+
+# 2. Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows CMD:
+venv\Scripts\activate
+# On Windows PowerShell:
+$env:BINANCE_API_KEY="your_api_key"
+
+pip install -r requirements.txt
+
+# On macOS/Linux:
+export BINANCE_API_KEY="your_testnet_api_key"
+export BINANCE_API_SECRET="your_testnet_secret_key"
+
+# On Windows (CMD):
+set BINANCE_API_KEY=your_testnet_api_key
+set BINANCE_API_SECRET=your_testnet_secret_key
+
+# On Windows (PowerShell):
+$env:BINANCE_API_KEY="your_testnet_api_key"
+$env:BINANCE_API_SECRET="your_testnet_secret_key"
+
